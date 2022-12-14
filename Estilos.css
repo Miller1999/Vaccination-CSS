@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(./Fuentes/Ubuntu-Regular.ttf);
+}
+*
+{
+    font-family: sans-serif;
+}
+
+.barra
+{
+    padding: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.fondo
+{
+    background-image: url(./Imagenes/fondo.png);
+    background-size: cover;
+}
+.logo
+{
+    font-family: Ubuntu;
+    color: blue;
+    font-size: larger;
+    font-weight: bolder;
+}
+.textosnav
+{
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color:gray;
+}
+.tnav
+{
+    display: flex;
+    gap: 5vh;
+    align-items: baseline;
+}
+.loc
+{
+    display: flex;
+    gap: 5vh;
+    align-items: baseline;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+.botonhoax
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: blue;
+    font-family: sans-serif;
+    font-size: small;
+    color: whitesmoke;
+}
+.cnav
+{
+    display: flex;
+    gap: 5vh;
+    align-items: baseline;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.bg
+{
+    display: flex;
+    justify-content: space-around;
+}
+.headerP
+{
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f3e72;
+    margin-top:80px ;
+    margin-bottom: 40px;
+}
+
+.art
+{
+    font-size: small;
+    color: gray;
+    line-height: 1.8;
+}
+.logitos
+{
+    display:flex;
+    align-items: baseline;
+}
+.b
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.tpeq
+{
+    font-family: sans-serif;
+    font-size: x-small;
+    font-weight: bold;
+    color:gray;
+}
+.c
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.locdat
+{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: x-small;
+    font-weight: bold;
+    color:gray;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sinborde
+{
+    border: 0;
+    width: 80px;
+}
